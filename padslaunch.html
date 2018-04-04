@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pads - IsoMorphic Keyboard</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
+    
+}
+
+h1 {
+    margin: 60px 0;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+    z-index: 1;
+    
+
+}
+
+p {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+
+
+
+</style>
+</head>
+
+
+   <body>
+    <div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="./assets/DiscoLights2Videvo.mov" type="video/webm">
+    </video>
+  </div>
+
+   	
+ <div class="content container row">
+        <h1 class="white-text center">Pads</h1>
+        <h4 class="white-text center">There is a musician in all of us</h4>
+      </div>
+   	<br><br><br><br><br><br>
+
+   	 <div class="container row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Email</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">lock_open</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Password</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   	 <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+ <script>
+   </body>
+   </html>
